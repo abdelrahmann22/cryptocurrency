@@ -89,3 +89,20 @@ nav .btn{
 	color: #fff;
 	margin-bottom: 5px;
 }
+@media screen and (max-width: 768px) {
+    .container{
+        padding: 0 5%;
+    }
+    .content h1{
+        font-size: 48px;
+    }
+    .coin-list{
+        position: static;
+        right: auto;
+        bottom: auto;
+        flex-direction: column;
+    }
+    .coin{
+        margin: 15px 0;
+    }
+}
